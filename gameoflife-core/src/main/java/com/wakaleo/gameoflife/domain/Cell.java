@@ -2,8 +2,8 @@ package com.wakaleo.gameoflife.domain;
 
 public enum Cell {
 
-    // replaced * with plua
-    LIVE_CELL("+"), DEAD_CELL(".");
+    // back to as before
+    LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
 
